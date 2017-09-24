@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/arkaplan"
+
+    tools:context="com.example.android.kitapstore.Main2Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="59dp"
+
+        android:textSize="30sp"
+        android:textColor="#100707"
+        android:textAlignment="center"
+        android:background="@drawable/edittext"
+        android:text="BookStore"
+        android:layout_alignStart="@+id/bookAdd"
+        android:layout_alignEnd="@+id/bookAdd" />
+
+    <Button
+        android:id="@+id/bookAdd"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+android:layout_marginLeft="70dp"
+
+        android:text="Kitap Ekle"
+        android:background="@drawable/stil"
+        />
+
+    <Button
+        android:id="@+id/visit"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bookAdd"
+        android:layout_below="@+id/bookAdd"
+        android:layout_marginTop="33dp"
+        android:text="Siteyi Ziyaret Et"
+        android:background="@drawable/stil"
+
+        android:layout_alignEnd="@+id/bookAdd" />
+
+    <Button
+        android:id="@+id/icerik"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/visit"
+        android:layout_below="@+id/visit"
+        android:layout_marginTop="23dp"
+        android:text="İçerik Ekle"
+        android:background="@drawable/stil"
+
+        android:layout_alignEnd="@+id/visit" />
+
+    <Button
+        android:id="@+id/map"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/icerik"
+        android:layout_below="@+id/icerik"
+        android:layout_marginTop="30dp"
+        android:text="Haritada Göster"
+        android:background="@drawable/stil"
+
+        android:layout_alignEnd="@+id/icerik" />
+</RelativeLayout>
